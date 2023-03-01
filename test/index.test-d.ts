@@ -1,5 +1,5 @@
 import {expectType} from 'tsd';
-import stripJsonComments from './index.js';
+import stripJsonComments from '../dist/es/index.js';
 
 const json = '{/*rainbows*/"unicorn":"cake"}';
 
